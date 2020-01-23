@@ -1,0 +1,15 @@
+/**
+ * Car schema expressed in Avro IDL as a protocol
+ */
+@namespace("")
+protocol CarProtocol {
+
+  record Car {
+    string make;
+    string model;
+    int year;
+    int horsepower;
+  }
+
+string carToString(Car car);
+}
