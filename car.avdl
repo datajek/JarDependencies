@@ -1,0 +1,15 @@
+/**
+ * Car schema expressed as Avro IDL
+ */
+@namespace("io.datajek")
+protocol CarProtocol {
+
+  record Car {
+    string make;
+    string model;
+    int year;
+    int horsepower;
+  }
+
+string carToString();
+}
