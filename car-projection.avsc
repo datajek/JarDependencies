@@ -1,0 +1,14 @@
+{
+  "namespace": "io.datajek",
+  "type": "record",
+  "name": "Car",
+  "fields": [
+    {
+      "name": "horsepower",
+      "type": [
+        "int",
+        "null"
+      ]
+    }
+  ]
+}

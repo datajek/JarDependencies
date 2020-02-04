@@ -5,7 +5,8 @@
   "fields": [
     {
       "name": "make",
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     {
       "name": "model",
