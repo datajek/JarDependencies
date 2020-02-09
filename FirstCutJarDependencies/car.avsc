@@ -1,0 +1,33 @@
+{
+  "namespace": "io.datajek",
+  "type": "record",
+  "name": "Car",
+  "fields": [
+    {
+      "name": "make",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "model",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "year",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "horsepower",
+      "type": [
+        "int",
+        "null"
+      ]
+    }
+  ]
+}
