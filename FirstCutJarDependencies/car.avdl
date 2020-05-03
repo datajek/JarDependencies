@@ -11,5 +11,5 @@ protocol CarProtocol {
     int horsepower;
   }
 
-string carToString();
+string carToString(Car car);
 }
